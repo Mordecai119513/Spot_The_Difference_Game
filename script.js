@@ -16,7 +16,7 @@ let currentLevel = 0;
 let differences = [];
 const levels = [
   {
-    images: ["/images/復活節找碴-1.jpg", "/images/復活節找碴-2.jpg"],
+    images: ["./images/easter-1.jpg", "./images/easter-2.jpg"],
     differences: [
       { x: 200, y: 65, found: false },
       { x: 345, y: 60, found: false },
@@ -26,7 +26,7 @@ const levels = [
     ],
   },
   {
-    images: ["/images/萬聖節找碴-1.jpg", "/images/萬聖節找碴-2.jpg"],
+    images: ["./images/halloween-1.jpg", "./images/halloween-2.jpg"],
     differences: [
       { x: 350, y: 86, found: false },
       { x: 85, y: 105, found: false },
